@@ -1,0 +1,29 @@
+# Ignore Python bytecode files
+*.pyc
+*.pyo
+__pycache__
+
+# Ignore Flask's temporary files
+instance/
+.webassets-cache
+
+# Ignore virtual environment directories
+venv/
+env/
+
+# Ignore uploaded files
+uploads/
+
+# Ignore environment variable files
+.env
+
+# Ignore IDE/editor specific files
+.vscode/
+.idea/
+
+# Ignore OS-specific files
+.DS_Store
+Thumbs.db
+
+# Ignore dependencies
+*.log
